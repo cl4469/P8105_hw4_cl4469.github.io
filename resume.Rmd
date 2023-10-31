@@ -1,0 +1,48 @@
+---
+title: "Chen Liang's Personal Website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# Education
+
+**Columbia University**, Mailman School of Public Health
+
+*M.S. in Biostatistics*
+
+- Selected Courses: Data Science, Biostatistics Method, Principle of Epidemiology
+
+**University of California, San Diego**
+
+*Bachelor of Economics*
+
+- Selected Courses: Political Inquiry, Data Analytics, Econometrics
+
+# Professional Experience
+
+**Bayer (China) Limited**
+
+*Intern of Data Engineer, Global Data Asset*
+
+- Applied data F.A.I.R. principles to improve the transparency of company data assets, enabled data sharing, improved data utilization, and accelerated data-driven decision-making
+
+- Organized a series of data use case sharing by helping to run data dashboards at the management level, spread data culture across different business functions, and planned and executed a "Big Data Adoption Day" for employees
+
+- Utilized SQL for data management and quality control, ensuring 80%+ data accuracy
+
+- Conducted research and information retrieval from domestic and foreign websites. Proficient in using Office software for data analysis and report generation
+
+**JD.com Inc.**
+
+*Data Analyst Intern, JD Retail*
+
+-Responsible for departmental data work, used SQL to extract sales, categories, users, channels, profit and loss, etc.
+
+-Used Easy BI to create dashboards, applied EXCEL and Tableau to analyze and present data results according to departmental business needs, and provided strategic recommendations 
+
+-Implement NLP sentiment analysis using Python to analyze user reviews and find product pain points, and produce regular industry reports to output strategies for departmental category development
+
+- Conducted 100+ customer callbacks, gathered opinions, and conducted satisfaction surveys. Supported team projects and daily tasks
+
