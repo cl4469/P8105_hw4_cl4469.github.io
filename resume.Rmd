@@ -38,11 +38,37 @@ output:
 
 *Data Analyst Intern, JD Retail*
 
--Responsible for departmental data work, used SQL to extract sales, categories, users, channels, profit and loss, etc.
+- Responsible for departmental data work, used SQL to extract sales, categories, users, channels, profit and loss, etc.
 
--Used Easy BI to create dashboards, applied EXCEL and Tableau to analyze and present data results according to departmental business needs, and provided strategic recommendations 
+- Used Easy BI to create dashboards, applied EXCEL and Tableau to analyze and present data results according to departmental business needs, and provided strategic recommendations 
 
--Implement NLP sentiment analysis using Python to analyze user reviews and find product pain points, and produce regular industry reports to output strategies for departmental category development
+- Implement NLP sentiment analysis using Python to analyze user reviews and find product pain points, and produce regular industry reports to output strategies for departmental category development
 
 - Conducted 100+ customer callbacks, gathered opinions, and conducted satisfaction surveys. Supported team projects and daily tasks
 
+# Research Experience
+
+**Correlation analysis between education and healthy life expectancy **
+
+*Undergraduate Researcher*
+
+- Identified certain correlates of educational attainment and health based on the use of inferential logic in the social sciences, quantitative analysis in the political sciences and public policy, including research design, data collection, data description and computer graphics, and statistical inference logic
+
+- Analyzed the health status and longevity of people with unequal education, comparing median, mean, range and standard deviation using SPSS software for the data set
+
+# Extracurricular Activities
+
+- Volunteered at a Women's Shelter in 2022.                                                                                             
+- Participated in the Mathematical Contest In Modeling (MCM) in 2021
+
+# Skills
+
+- Computer skills: R, SPSS, Stata, Python, MySQL.
+
+- Language: Chinese (Native), English (Proficient).
+
+# Contact Information
+- Mobile: (+1) (929)-695-7225
+- Address: 50 Haven Ave, New York, NY 10032, USA
+- [Github](https://github.com/cl4469)
+- [Email](mailto:cl4469@cumc.columbia.edu)
