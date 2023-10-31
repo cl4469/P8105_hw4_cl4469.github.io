@@ -56,7 +56,7 @@ output:
 
 - Analyzed the health status and longevity of people with unequal education, comparing median, mean, range and standard deviation using SPSS software for the data set
 
-# Extracurricular Activities
+# Extracurricular Activitiesa
 
 - Volunteered at a Women's Shelter in 2022.                                                                                             
 - Participated in the Mathematical Contest In Modeling (MCM) in 2021
