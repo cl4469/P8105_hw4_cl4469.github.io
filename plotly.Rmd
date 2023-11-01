@@ -20,7 +20,14 @@ Column {data-width=650}
 ### Plotly boxplot: Number of Restaurants by Borough of NYC
 
 ```{r}
-
+rest_inspec|>
+  filter(boro != "Missing")|>
+  count(boro) |>
+  mutate(boro = fct_reorder(boro, n)) |>
+  plot_ly(x = ~boro, y = ~n, color = ~boro, type = "bar", colors = "viridis") |>
+  layout((title = "Number of Restaurants by Borough of NYC"),
+          xaxis = list(title = "Borough"),
+          yaxis = list(title = "Number of Restaurants"))
 ```
 
 Column {data-width=350}
