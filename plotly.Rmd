@@ -11,32 +11,28 @@ library(flexdashboard)
 library(tidyverse)
 library(p8105.datasets)
 library(plotly)
+data(rest_inspec)
 ```
 
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
+### Plotly boxplot: Number of Restaurants by Borough of NYC
 
 ```{r}
-data(instacart)
-nyc_airbnb |>
-  mutate(text_label = str_c("Price: $", price, "\nRating: ", rating)) |> 
-  plot_ly(
-    x = ~lat, y = ~long, type = "scatter", mode = "markers",
-    color = ~price, text = ~text_label, alpha = 0.5)
+
 ```
 
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B
+### Boxplot
 
 ```{r}
 
 ```
-
-### Chart C
+  
+### Scatter Plot
 
 ```{r}
 
