@@ -49,5 +49,11 @@ rest_inspec |>
 ### Scatter Plot
 
 ```{r}
-
+rest_inspec |>
+  drop_na() |>
+  filter(boro == "MANHATTAN",
+  grade %in% c("A", "B", "C"),
+  cuisine_description %in% c("American", "Mexican", "Italian", "Chinese", "Japanese", "Korean")) |>
+  mutate(text_label = str_c("Restaurant: ", dba, "\nGrade: ", grade)) |> 
+  plot_ly(x = ~street, y = ~score, type = "scatter", mode = "markers", color = ~score,   text = ~text_label, colors = "viridis", alpha = 0.5)
 ```
