@@ -13,4 +13,4 @@ Here is my [Resume](resume.html)
 
 # Problem 2
 
-Here is the link to 3 distinct plots on Instacart:[Dashboard](plotly.html)
+Here is the link to 3 distinct plots on NYC Restaurant Inspections:[Dashboard](plotly.html)
