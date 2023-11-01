@@ -33,10 +33,17 @@ rest_inspec|>
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Boxplot
+### Boxplot: Average Score of Restaurants in Manhattan by Cuisine Type
 
 ```{r}
-
+rest_inspec |>
+  drop_na() |>
+  filter(boro == "MANHATTAN",
+         cuisine_description %in% c("American", "Mexican", "Italian", "Chinese", "Japanese", "Korean"))|>
+  plot_ly(x = ~cuisine_description, y = ~score,color = ~cuisine_description, type = "box",colors = "viridis") |>
+ layout((title = "Average Score of Restaurants in Manhattan by Cuisine Type"),
+          xaxis = list(title = "Cuisine Type"),
+          yaxis = list(title = "Inspection Score"))
 ```
   
 ### Scatter Plot
