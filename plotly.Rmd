@@ -17,17 +17,16 @@ data(rest_inspec)
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Plotly boxplot: Number of Restaurants by Borough of NYC
+### Scatter Plot
 
 ```{r}
-rest_inspec|>
-  filter(boro != "Missing")|>
-  count(boro) |>
-  mutate(boro = fct_reorder(boro, n)) |>
-  plot_ly(x = ~boro, y = ~n, color = ~boro, type = "bar", colors = "viridis") |>
-  layout((title = "Number of Restaurants by Borough of NYC"),
-          xaxis = list(title = "Borough"),
-          yaxis = list(title = "Number of Restaurants"))
+rest_inspec |>
+  drop_na() |>
+  filter(boro == "MANHATTAN",
+  grade %in% c("A", "B", "C"),
+  cuisine_description %in% c("American", "Mexican", "Italian", "Chinese", "Japanese", "Korean")) |>
+  mutate(text_label = str_c("Restaurant: ", dba, "\nGrade: ", grade)) |> 
+  plot_ly(x = ~street, y = ~score, type = "scatter", mode = "markers", color = ~score,   text = ~text_label, colors = "viridis", alpha = 0.5)
 ```
 
 Column {data-width=350}
@@ -46,14 +45,16 @@ rest_inspec |>
           yaxis = list(title = "Inspection Score"))
 ```
   
-### Scatter Plot
+
+### Plotly boxplot: Number of Restaurants by Borough of NYC
 
 ```{r}
-rest_inspec |>
-  drop_na() |>
-  filter(boro == "MANHATTAN",
-  grade %in% c("A", "B", "C"),
-  cuisine_description %in% c("American", "Mexican", "Italian", "Chinese", "Japanese", "Korean")) |>
-  mutate(text_label = str_c("Restaurant: ", dba, "\nGrade: ", grade)) |> 
-  plot_ly(x = ~street, y = ~score, type = "scatter", mode = "markers", color = ~score,   text = ~text_label, colors = "viridis", alpha = 0.5)
+rest_inspec|>
+  filter(boro != "Missing")|>
+  count(boro) |>
+  mutate(boro = fct_reorder(boro, n)) |>
+  plot_ly(x = ~boro, y = ~n, color = ~boro, type = "bar", colors = "viridis") |>
+  layout((title = "Number of Restaurants by Borough of NYC"),
+          xaxis = list(title = "Borough"),
+          yaxis = list(title = "Number of Restaurants"))
 ```
