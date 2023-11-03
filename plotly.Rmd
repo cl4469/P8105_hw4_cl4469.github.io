@@ -17,7 +17,7 @@ data(rest_inspec)
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Scatter Plot
+### Scatter Plot: The grade of the six cuisines in the streets of Manhattan
 
 ```{r}
 rest_inspec |>
@@ -45,7 +45,6 @@ rest_inspec |>
           yaxis = list(title = "Inspection Score"))
 ```
   
-
 ### Plotly boxplot: Number of Restaurants by Borough of NYC
 
 ```{r}

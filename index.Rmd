@@ -9,8 +9,8 @@ output:
 # Problem 1
 My name is Chen Liang. I am first year MS biostatistics students at Columbia University Mailman School of Public Health. In this website, you can find my academic and professional experience.
 
-Here is my [Resume](resume.html)
+Here is my [Resume](resume.html).
 
 # Problem 2
 
-Here is the link to 3 distinct plots on NYC Restaurant Inspections:[Dashboard](plotly.html)
+Here is the link to 3 distinct plots on NYC Restaurant Inspections: [Dashboard](plotly.html).
